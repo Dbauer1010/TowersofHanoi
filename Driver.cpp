@@ -24,6 +24,11 @@ int main()
     int num;
     std::cin >> num;
     std::cout << "the number you entered is: " << num << "\n";
+    move(num, t1, t2, t3);
+    if(t3->getSize() == 3);
+    {
+        std::cout << "You Win!" << "\n";  
+    }
 
 
 
